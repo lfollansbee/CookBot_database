@@ -27,8 +27,8 @@ exports.seed = function(knex, Promise) {
           vegetarian: false,
           veryHealthy: false,
           veryPopular: true,
-          description: 'Delicious crowd-pleaser and easy to make for parties.',
-          notes: 'If dip is too liquidy, remove crockpot lid for a little bit, but continue stirring occasionally.'
+          description: 'Delicious crowd-pleaser and easy to make for parties.'
+          // notes: 'If dip is too liquidy, remove crockpot lid for a little bit, but continue stirring occasionally.'
         }),
         knex('recipe').insert({
           dairyFree: false,
@@ -43,8 +43,8 @@ exports.seed = function(knex, Promise) {
           vegetarian: true,
           veryHealthy: false,
           veryPopular: true,
-          description: 'You can\’t get more basic than chess pie. Remarkable in its simplicity, timeless in appeal, chess pie is the ultimate Southern pantry pie.',
-          notes: 'Can make miniature pies (not bite size, but personal sized) with mini pie shells (phyllo).  This recipe makes 36+ mini pies.'
+          description: 'You can\’t get more basic than chess pie. Remarkable in its simplicity, timeless in appeal, chess pie is the ultimate Southern pantry pie.'
+          // notes: 'Can make miniature pies (not bite size, but personal sized) with mini pie shells (phyllo).  This recipe makes 36+ mini pies.'
         }),
         knex('recipe').insert({
           dairyFree: false,
@@ -57,8 +57,8 @@ exports.seed = function(knex, Promise) {
           vegan: false,
           vegetarian: true,
           veryPopular: true,
-          description: 'Delicious cheese biscuit crackers.',
-          notes: 'You can buy the sharp cheese already finely shredded...don’t use the thick shredded.  When rolling the dough, 1 ¼\” square is perfect size for three rows across in plasticwares'
+          description: 'Delicious cheese biscuit crackers.'
+          // notes: 'You can buy the sharp cheese already finely shredded...don’t use the thick shredded.  When rolling the dough, 1 ¼\” square is perfect size for three rows across in plasticwares'
         }),
         knex('recipe').insert({
           dairyFree: false,
@@ -97,6 +97,5 @@ exports.seed = function(knex, Promise) {
 //   vegetarian: ,
 //   veryHealthy: ,
 //   veryPopular: ,
-//   description: '',
-//   notes: ''
+//   description: ''
 // })

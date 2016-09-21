@@ -21,7 +21,7 @@ exports.up = function(knex, Promise) {
     table.boolean('veryHealthy');
     table.boolean('veryPopular');
     table.text('description');
-    table.text('notes');
+    // table.text('notes');
   });
 };
 
