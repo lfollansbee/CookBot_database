@@ -59,6 +59,18 @@ exports.seed = function(knex, Promise) {
           veryPopular: true,
           description: 'Delicious cheese biscuit crackers.',
           notes: 'You can buy the sharp cheese already finely shredded...don’t use the thick shredded.  When rolling the dough, 1 ¼\” square is perfect size for three rows across in plasticwares'
+        }),
+        knex('recipe').insert({
+          dairyFree: false,
+          extendedIngredients: JSON.stringify(['½ cup Butter', '2 cups Sugar', '½ cup Milk', '4 Tbsp Cocoa', '½ cup Peanut Butter', '3-3 ½ cups Quick cooking oats', '2 tsp. Vanilla']),
+          extendedInstructions: JSON.stringify(['Add the first four ingredients into a saucepan.', 'Bring to a rolling boil and boil for 1 minute.', 'Stir in the next 3 ingredients and drop onto wax/foil paper.', 'Let cool until set.']),
+          glutenFree: true,
+          image: 'http://farm5.static.flickr.com/4135/5394285917_f31a53e7ed.jpg',
+          instructions: 'Add the first four ingredients into a saucepan. Bring to a rolling boil and boil for 1 minute. Stir in the next 3 ingredients and drop onto wax/foil paper. Let cool until set.',
+          readyInMinutes: 15,
+          title: 'Peanut Butter Chocolate No-Bake Cookies',
+          vegan: false,
+          vegetarian: true
         })
       ]);
     });
